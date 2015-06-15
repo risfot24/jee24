@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+@IMPORT url("common.css");
+/*위에 url을 연결시켜줬다..*/
+/*좌측에 콘텐츠가 있는 프레임*/
+
+article {
+	 width: 70%;
+	 min-height: 50%;
+	 z-index: 10;
+	 margin: -50px 0;/*margin: -50    ;*//*0;*/
+	 background-color: #FF6;
+	 float: left;
+	 
+	
+}
+
+.leftContent{
+	 padding-top: 50px; /* 부모태그인 article 을 -50px 을 주어서 그걸 상쇄시키기 위해 */
+	
+}
+/*우측 사이드*/
+aside{
+	   width: 30%;
+	   min-height: 50%;
+	   position: relative ;
+	   z-index: 10;
+	   margin : -50px 0;
+	   background-color: RED;
+	   float : right; /* float는 떠있다는 뜻으로 우측정렬 */
+	
+	
+}
+	

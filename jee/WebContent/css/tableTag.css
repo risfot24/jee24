@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+/* reset.css 에 와서 가져온다.. 테이블을*/
+
+
+table {
+    border-collapse: collapse;     /* 테이블 쉘 사이에 간격을 주지마라 */
+    border-spacing: 0
+}
+
+.tableTag{
+	  width: 500px;
+	  height: 100px;
+	
+}
+.tableTag thead tr th{
+	  border: 1px solid GRAY;
+	   height: 80px;
+	
+}
+.tableTag tbody tr td{
+	  border: 1px solid GRAY;
+	
+}

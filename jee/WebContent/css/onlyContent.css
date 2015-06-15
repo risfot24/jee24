@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+@IMPORT url("common.css");
+
+#wrap{    /*top -> wrap*/
+	width: 99%;
+	text-align:  left; /*글자 정렬 : 안쪽*/
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	
+	background-image: url(""); /* ff  ,,../../images/Tulips.jpg*/
+    background-repeat: repeat-y;
+    /*
+    만약 배경이미지가 작으면 이미지 반복으로 채우겠다.
+    */
+   
+   /*이거 먹게할러면*/
+    min-height: 750px;
+    /*
+    모니터에 따라 신축성 있게 헤더가 축소되지만
+    최소한 750px 은 유지하고
+    그 이하가 되면 이미지가 잘리도록 하겠다.
+    
+    */
+    	
+}
+article{
+	  width : 100%;
+	  min-height : 50%;
+	  position: relative ;
+	  z-index : 10;
+	  margin : -50px 0;
+	  background-color: #ff6;
+	    
+      }
+
+.content{
+	    padding-top: 50px;
+	     
+       
+       
+       }

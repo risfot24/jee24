@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+@IMPORT url("common.css"); /*ctrl + 클릭으로 제대로 연결되었는지 알수가있다.*/
+img{border:none}
+
+
+#wrap{    /*top -> wrap*/
+	width: 99%;
+	text-align:  left; /*글자 정렬 : 안쪽*/
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	
+	background-image: url(""); /* ff  ,,../../images/Tulips.jpg*/
+    background-repeat: repeat-y;
+    /*
+    만약 배경이미지가 작으면 이미지 반복으로 채우겠다.
+    */
+   
+   /*이거 먹게할러면*/
+    min-height: 750px;
+    /*
+    모니터에 따라 신축성 있게 헤더가 축소되지만
+    최소한 750px 은 유지하고
+    그 이하가 되면 이미지가 잘리도록 하겠다.
+    
+    */
+    	
+}
+#top{
+	 height: 150px;
+	 margin: 0;
+	 padding: 0;
+	 background-color: #fccbe0;	
+}
+
+.clear{
+	  clear: both;
+	  
+}
+
+#logo{ 
+	  float: left;
+	  margin: 40px 0 0 40px;
+	             /*상단 하고 우측만 하단 하고 좌측은 놧둔다는것*/
+	  width: 270px;
+	
+}
+#login{
+	   float: right;
+	   margin: 20px 60px 0 0; 
+	   font-family: Arial, Helvetica, san-serif;
+	   font-size: 12px;
+	   word-spacing: 5px;
+	   background-color: #f1fc21;
+}
+
+#login a{
+	 text-decoration: none;
+	 color: #333;
+}
+
+#login a:hover{
+	color : #F90;
+}
+nav#topMenu{
+	  width: 600px;
+	  margin: 50px 20px 0 0;
+	  float: right;
+}
+nav#topMenu ul{
+	  list-style: none;
+	  font-family: Arial, Helvetica, san-serif;
+	  font-size: 13px;
+	  font-weight: 100;
+	  color : #333;
+}
+
+nav#topMenu ul li{
+	float: left;
+	margin: 0 5px;
+}
+nav#topMenu a{
+	display: block;
+	height: 20px;
+	padding: 10px;
+	text-decoration: none;
+	color: #333;
+}
+
+nav#topMenu a:hover{
+	
+}
+
+footer hr{
+	width: 100%;
+	margin: 0 0 0 15px;
+	
+}
+#companyInfo{
+	width:50%;
+
+}
